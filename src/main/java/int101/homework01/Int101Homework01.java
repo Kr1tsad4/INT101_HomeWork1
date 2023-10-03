@@ -55,8 +55,8 @@ public class Int101Homework01 {
         account1.deposit(1000);
         account1.withdraw(500);
         account1.transfer(200, account2);
-        System.out.println(account1.toString());
-        System.out.println(account2.toString());
+        System.out.println(account1);
+        System.out.println(account2);
 
     }
 }
