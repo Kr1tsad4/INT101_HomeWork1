@@ -29,7 +29,7 @@ public class BankAccount {
     }
 
     public void transfer(double amount, BankAccount account) {
-        balance -= amount;
+        withdraw(amount);
         account.deposit(amount);
     }
 
